@@ -1,12 +1,12 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-using Surviveplus.RegularExpressionQuery;
+using Net.Surviveplus.RegularExpressionQuery;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Surviveplus.RegularExpressionQuery.Tests
+namespace Net.Surviveplus.RegularExpressionQuery.Tests
 {
     public class Sample
 	{

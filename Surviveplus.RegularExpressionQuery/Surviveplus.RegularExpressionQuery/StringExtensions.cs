@@ -8,7 +8,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 
-namespace Surviveplus.RegularExpressionQuery
+namespace Net.Surviveplus.RegularExpressionQuery
 {
 
     /// <summary>
