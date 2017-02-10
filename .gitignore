@@ -1,0 +1,9 @@
+﻿################################################################################
+# この .gitignore ファイルは Microsoft(R) Visual Studio によって自動的に作成されました。
+################################################################################
+
+/Surviveplus.RegularExpressionQuery/Surviveplus.RegularExpressionQuery/bin
+/Surviveplus.RegularExpressionQuery/Surviveplus.RegularExpressionQuery/obj
+/Surviveplus.RegularExpressionQuery/Surviveplus.RegularExpressionQuery/Surviveplus.RegularExpressionQuery.csproj.user
+/Surviveplus.RegularExpressionQuery/Surviveplus.RegularExpressionQuery.Tests/bin
+/Surviveplus.RegularExpressionQuery/Surviveplus.RegularExpressionQuery.Tests/obj

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Surviveplus.RegularExpressionQuery</id>
+    <title>RegularExpressionQuery</title>
+    <version>1.0.0-beta</version>
+    <description>Get a instance which extracted values from the string by using regular expression pattern. Replace a text by using regular expression pattern and value object.</description>
+    <authors>Surviveplus.net</authors>
+    <language>en-US</language>
+    <projectUrl>https://github.com/surviveplus/RegularExpressionQuery</projectUrl>
+    <copyright>Copyright ©  2015~2017 SHIN-ICHI (Surviveplus.net)</copyright>
+  </metadata>
+  <!-- Optional 'files' node -->
+  <files>
+    <file src="Surviveplus.RegularExpressionQuery.dll" target="lib\net46"/>
+    <file src="Surviveplus.RegularExpressionQuery.xml" target="lib\net46"/>
+    
+  </files>
+</package>
