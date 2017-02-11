@@ -3,17 +3,20 @@
   <metadata>
     <id>Surviveplus.RegularExpressionQuery</id>
     <title>RegularExpressionQuery</title>
-    <version>1.0.0-beta</version>
+    <version>1.0.2-beta</version>
     <description>Get a instance which extracted values from the string by using regular expression pattern. Replace a text by using regular expression pattern and value object.</description>
     <authors>Surviveplus.net</authors>
     <language>en-US</language>
     <projectUrl>https://github.com/surviveplus/RegularExpressionQuery</projectUrl>
     <copyright>Copyright ©  2015~2017 SHIN-ICHI (Surviveplus.net)</copyright>
+    <releaseNotes>Add net461 target.</releaseNotes>
   </metadata>
-  <!-- Optional 'files' node -->
   <files>
-    <file src="Surviveplus.RegularExpressionQuery.dll" target="lib\net46"/>
-    <file src="Surviveplus.RegularExpressionQuery.xml" target="lib\net46"/>
+    <file src="..\..\net46\Surviveplus.RegularExpressionQuery\bin\Release\Surviveplus.RegularExpressionQuery.dll" target="lib\net46"/>
+    <file src="..\..\net46\Surviveplus.RegularExpressionQuery\bin\Release\Surviveplus.RegularExpressionQuery.xml" target="lib\net46"/>
     
-  </files>
+    <file src="..\..\net461\Surviveplus.RegularExpressionQuery\bin\Release\Surviveplus.RegularExpressionQuery.dll" target="lib\net461"/>
+    <file src="..\..\net461\Surviveplus.RegularExpressionQuery\bin\Release\Surviveplus.RegularExpressionQuery.xml" target="lib\net461"/>
+
+</files>
 </package>

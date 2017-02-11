@@ -50,7 +50,9 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="RegularExpressionQueryTest.cs" />
+    <Compile Include="..\..\net461\Surviveplus.RegularExpressionQuery.Tests\RegularExpressionQueryTest.cs">
+      <Link>RegularExpressionQueryTest.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

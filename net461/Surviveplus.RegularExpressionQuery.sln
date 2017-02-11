@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Surviveplus.RegularExpressionQuery", "Surviveplus.RegularExpressionQuery\Surviveplus.RegularExpressionQuery.csproj", "{EFCD1F98-53E4-4CA8-84AE-3DC7888F8AD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Surviveplus.RegularExpressionQuery.Tests", "Surviveplus.RegularExpressionQuery.Tests\Surviveplus.RegularExpressionQuery.Tests.csproj", "{96DA2FD2-08F5-48BE-9CE3-37075E9C04A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFCD1F98-53E4-4CA8-84AE-3DC7888F8AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFCD1F98-53E4-4CA8-84AE-3DC7888F8AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFCD1F98-53E4-4CA8-84AE-3DC7888F8AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFCD1F98-53E4-4CA8-84AE-3DC7888F8AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96DA2FD2-08F5-48BE-9CE3-37075E9C04A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96DA2FD2-08F5-48BE-9CE3-37075E9C04A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96DA2FD2-08F5-48BE-9CE3-37075E9C04A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96DA2FD2-08F5-48BE-9CE3-37075E9C04A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
