@@ -3,13 +3,13 @@
   <metadata>
     <id>Surviveplus.RegularExpressionQuery</id>
     <title>RegularExpressionQuery</title>
-    <version>1.0.2-beta</version>
+    <version>1.0.3-beta</version>
     <description>Get a instance which extracted values from the string by using regular expression pattern. Replace a text by using regular expression pattern and value object.</description>
     <authors>Surviveplus.net</authors>
     <language>en-US</language>
     <projectUrl>https://github.com/surviveplus/RegularExpressionQuery</projectUrl>
     <copyright>Copyright ©  2015~2017 SHIN-ICHI (Surviveplus.net)</copyright>
-    <releaseNotes>Add net461 target.</releaseNotes>
+    <releaseNotes>Add optional argument of RegexOptions. Add QuerableFilePath and extensions methods.</releaseNotes>
   </metadata>
   <files>
     <file src="..\..\net46\Surviveplus.RegularExpressionQuery\bin\Release\Surviveplus.RegularExpressionQuery.dll" target="lib\net46"/>

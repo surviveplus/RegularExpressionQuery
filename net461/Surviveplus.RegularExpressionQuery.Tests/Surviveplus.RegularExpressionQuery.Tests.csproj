@@ -36,6 +36,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
   </ItemGroup>
   <Choose>
@@ -51,14 +52,30 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="RegularExpressionQueryTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegularExpressionQueryTest.cs" />
+    <Compile Include="DirectoryInfoExtensionsTest.cs" />
+    <Compile Include="IEnumerableQuerableFilePathExtensionsTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Surviveplus.RegularExpressionQuery\Surviveplus.RegularExpressionQuery.csproj">
       <Project>{efcd1f98-53e4-4ca8-84ae-3dc7888f8ad5}</Project>
       <Name>Surviveplus.RegularExpressionQuery</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TestFolder\NewFolder1\RegularExpressionQuery.sln">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestFolder\NewFolder1\Sample.csproj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestFolder\NewFolder1\XMLFile2.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestFolder\XMLFile1.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

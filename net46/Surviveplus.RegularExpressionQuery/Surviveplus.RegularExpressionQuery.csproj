@@ -32,6 +32,7 @@
     <DocumentationFile>bin\Release\Surviveplus.RegularExpressionQuery.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -42,10 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="..\..\net461\Surviveplus.RegularExpressionQuery\StringExtensions.cs">
       <Link>StringExtensions.cs</Link>
     </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="..\..\net461\Surviveplus.RegularExpressionQuery\DirectoryInfoExtensions.cs" >
+      <Link>DirectoryInfoExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net461\Surviveplus.RegularExpressionQuery\IEnumerableQuerableFilePathExtensions.cs" >
+      <Link>IEnumerableQuerableFilePathExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\net461\Surviveplus.RegularExpressionQuery\QuerableFilePath.cs" >
+      <Link>QuerableFilePath.cs</Link>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
